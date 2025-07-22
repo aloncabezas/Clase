@@ -1,0 +1,13 @@
+﻿CREATE PROCEDURE EliminarMarca
+    @Id uniqueidentifier
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRANSACTION
+    DELETE FROM Marcas
+    WHERE Id = @Id
+
+    SELECT @Id
+    COMMIT TRANSACTION
+END
