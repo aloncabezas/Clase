@@ -1,10 +1,12 @@
-﻿ CREATE PROCEDURE ObtenerModelos
+﻿
+ CREATE PROCEDURE ObtenerModelos
 AS
 BEGIN
+    --Aca
     SELECT 
-        Id,
-        Nombre,
-        IdMarca
+        Id,         
+        Nombre,     
+        IdMarca     
     FROM 
         Modelos
 END
