@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracciones", "Abstracciones\Abstracciones.csproj", "{52470C92-61DA-481A-90EC-B3FAF626662D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reglas", "Reglas\Reglas.csproj", "{70B6A99C-64CA-49B5-A4AD-E5D06FEC7B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{1711A250-1A25-49D0-B2BD-A2CB628BF997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52470C92-61DA-481A-90EC-B3FAF626662D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52470C92-61DA-481A-90EC-B3FAF626662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52470C92-61DA-481A-90EC-B3FAF626662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52470C92-61DA-481A-90EC-B3FAF626662D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B6A99C-64CA-49B5-A4AD-E5D06FEC7B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B6A99C-64CA-49B5-A4AD-E5D06FEC7B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B6A99C-64CA-49B5-A4AD-E5D06FEC7B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B6A99C-64CA-49B5-A4AD-E5D06FEC7B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1711A250-1A25-49D0-B2BD-A2CB628BF997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1711A250-1A25-49D0-B2BD-A2CB628BF997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1711A250-1A25-49D0-B2BD-A2CB628BF997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1711A250-1A25-49D0-B2BD-A2CB628BF997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0E61209-DB02-4127-B844-4D73B454E20A}
+	EndGlobalSection
+EndGlobal

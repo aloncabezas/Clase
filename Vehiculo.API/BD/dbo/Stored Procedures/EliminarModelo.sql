@@ -1,0 +1,13 @@
+﻿CREATE PROCEDURE EliminarModelo
+    @Id UNIQUEIDENTIFIER
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRANSACTION
+        DELETE FROM [dbo].[Modelos]
+        WHERE Id = @Id;
+
+        SELECT @Id AS IdEliminado;
+    COMMIT TRANSACTION
+END

@@ -1,0 +1,26 @@
+﻿@page
+@model Web.Pages.Marcas.EliminarModel
+@{
+    ViewData["Title"] = "Eliminar Marca";
+}
+<h1>Eliminar Marca</h1>
+
+<div class="container">
+    <form method="post">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        @Html.DisplayFor(m => m.marca.Nombre)
+                    </h5>
+                    <p class="card-text">
+                        <b>@Html.DisplayNameFor(m => m.marca.Id):</b> @Html.DisplayFor(m => m.marca.Id)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a type="button" class="btn btn-primary" asp-page="./Index">Regresar</a>
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+    </form>
+</div>
